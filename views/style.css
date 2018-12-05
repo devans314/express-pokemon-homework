@@ -1,3 +1,11 @@
 h1, p {
     font-family: 'Oswald', sans-serif;
 }
+
+body {
+    color: blue;
+    background-color:orange;
+}
+ a {
+    color: blue;
+}
