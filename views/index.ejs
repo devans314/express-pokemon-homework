@@ -7,7 +7,9 @@
 <body>
     <h1>Pokemon</h1>
     <% for(let i=0; i<pokemonList.length; i++) { %>
-        <p><a href="pokemon/<%= i %>"><%= pokemonList[i].name %></a></p>
+        <ul>
+            <li><a href="pokemon/<%= i %>"><%= pokemonList[i].name %></a></li>
+        </ul>
     <% } %>
 </body>
 </html> 
