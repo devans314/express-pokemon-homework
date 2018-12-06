@@ -9,8 +9,10 @@
     <link href="./style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1><%= pokemon.name.toUpperCase(); %></h1>
-    <img src="<%= pokemon.img %>"><br>
-    <a href="/pokemon/<%= id %>/edit">Edit</a>
+    <form action="/pokemon" method="POST">
+        Name: <input type="text" name="name"><br>
+        Image URL: <input type="text" name="img"><br>
+        <input type="submit"><br>
+    </form>
 </body>
 </html> 
